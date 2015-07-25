@@ -8,6 +8,4 @@ logicObject.prototype = {
 	}
 };
 
-var b = new logicObject();
-b.countLengthTape(4);
-console.log(b.tapeLength);
+module.exports = logicObject;
